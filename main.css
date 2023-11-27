@@ -5,3 +5,11 @@ body{
 .links {
     float: left;
 }
+.headerClass{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: black;
+}
