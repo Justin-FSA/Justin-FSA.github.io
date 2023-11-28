@@ -5,11 +5,42 @@ body{
 .links {
     float: left;
 }
+.links a {
+    text-decoration: none;
+    color: white;
+}
 .headerClass{
     display: flex;
     justify-content: space-between;
     font-size: 3rem;
-    padding: 0.5em 1em;
+    padding: 0.5em 1rem;
     color: white;
     background-color: black;
+    border-bottom: 5px solid white;
+}
+.mainText{
+    align-self: center;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    padding: 2rem 2rem;
+    background-color: black;
+}
+.navButton{
+    font-size: 3rem;
+    background-color: black;
+}
+.mainText div {
+    margin-bottom: 20px; 
+}
+
+.site-footer {
+    background-color: black; /* Choose a background color for the footer */
+    color: #fff; /* Choose a text color for the footer */
+    text-align: center;
+    padding: 20px;
+    
+}
+  
+.site-footer p {
+    margin: 0;
 }
